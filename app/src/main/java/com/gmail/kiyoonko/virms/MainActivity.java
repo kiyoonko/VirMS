@@ -14,9 +14,15 @@
  * limitations under the License.
  */
 
-package com.projecttango.experiments.quickstartjava;
+package com.gmail.kiyoonko.virms;
 
-import java.util.ArrayList;
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.atap.tangoservice.Tango;
 import com.google.atap.tangoservice.Tango.OnTangoUpdateListener;
@@ -27,20 +33,13 @@ import com.google.atap.tangoservice.TangoEvent;
 import com.google.atap.tangoservice.TangoOutOfDateException;
 import com.google.atap.tangoservice.TangoPoseData;
 import com.google.atap.tangoservice.TangoXyzIjData;
-import com.projecttango.quickstartjava.R;
 
-import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.TextView;
-import android.widget.Toast;
+import java.util.ArrayList;
 
 
 /**
  * Main Activity for the Tango Java Quickstart. Demonstrates establishing a
- * connection to the {@link Tango} service and printing the {@link TangoPose}
+ * connection to the {@link Tango} service and printing the {@link }
  * data to the LogCat. Also demonstrates Tango lifecycle management through
  * {@link TangoConfig}.
  */
@@ -160,7 +159,7 @@ public class MainActivity extends Activity {
                     return;
                 }
                 mIsProcessing = true;
-                
+
                 // Format Translation and Rotation data
                 final String translationMsg = String.format(sTranslationFormat,
                         pose.translation[0], pose.translation[1],
@@ -198,11 +197,11 @@ public class MainActivity extends Activity {
                 // Ignoring TangoEvents
             }
 
-			@Override
-			public void onFrameAvailable(int arg0) {
-				// Ignoring onFrameAvailable Events
-				
-			}
+            @Override
+            public void onFrameAvailable(int arg0) {
+                // Ignoring onFrameAvailable Events
+
+            }
 
         });
     }
