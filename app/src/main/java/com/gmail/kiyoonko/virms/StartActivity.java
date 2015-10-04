@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+import com.gmail.kiyoonko.virms.R;
+
 
 /**
  * Application's entry point where the user gets to select a certain configuration and start the

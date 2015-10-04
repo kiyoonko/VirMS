@@ -22,6 +22,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.gmail.kiyoonko.virms.R;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
