@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.projecttango.tangoutils;
+package com.gmail.kiyoonko.virms.TangoUtils.app.src.main.java.com.projecttango.tangoutils;
 
 import android.opengl.Matrix;
 

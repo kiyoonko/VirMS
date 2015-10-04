@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.projecttango.tangoutils.renderables;
-
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.nio.FloatBuffer;
+package com.gmail.kiyoonko.virms.TangoUtils.app.src.main.java.com.projecttango.tangoutils.renderables;
 
 import android.opengl.GLES20;
 import android.opengl.Matrix;
 import android.util.Log;
+
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.FloatBuffer;
 
 /**
  * {@link Renderable} OpenGL object showing the Trajectory of the Project Tango

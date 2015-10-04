@@ -14,21 +14,19 @@
  * limitations under the License.
  */
 
-package com.projecttango.tangoutils.renderables;
-
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.nio.FloatBuffer;
-import java.util.concurrent.atomic.AtomicBoolean;
+package com.gmail.kiyoonko.virms.TangoUtils.app.src.main.java.com.projecttango.tangoutils.renderables;
 
 import android.opengl.GLES20;
 import android.opengl.Matrix;
+
+import java.nio.FloatBuffer;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * {@link Renderable} OpenGL showing a PointCloud obtained from Tango XyzIj
  * data. The point count can vary over as the information is updated.
  */
-public class PointCloud extends Renderable {
+public class PointCloud extends com.gmail.kiyoonko.virms.TangoUtils.app.src.main.java.com.projecttango.tangoutils.renderables.Renderable {
 
     private static final int COORDS_PER_VERTEX = 3;
 
