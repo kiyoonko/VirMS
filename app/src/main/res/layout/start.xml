@@ -9,7 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textOff="Auto recovery off"
-        android:textOn="Auto recovery on" />
+        android:textOn="Auto recovery on"
+        />
 
     <Button
         android:id="@+id/startbutton"
