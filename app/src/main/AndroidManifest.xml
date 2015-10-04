@@ -17,11 +17,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <uses-library
-            android:name="com.gmail.libtango_device"
+            android:name="com.projecttango.libtango_device"
             android:required= "true" />
         <activity
             android:name="com.gmail.kiyoonko.virms.StartActivity"
-            android:lable="Drawing in 3D Space"
+            android:label="Drawing in 3D Space"
             android:screenOrientation="landscape"
             >
             <intent-filter>
@@ -32,7 +32,7 @@
         <activity
             android:name="com.gmail.kiyoonko.virms.MotionTrackingActivity"
             android:label="Project Tango Motion Tracking"
-            android:screenOrentation="landscape">
+            android:screenOrientation="landscape">
 
         </activity>
     </application>
